@@ -7,25 +7,23 @@
   "scripts": {
     "start": "node ./src/app.js",
     "dev": "nodemon ./src/app.js",
-    "lint": "eslint . --ext .js"
+    "lint": "biome check --write"
   },
   "authors": [
-    "Robert Baumgartner",
-    "Thomas Psik"
+    "Thomas Psik",
+    "Robert Baumgartner"
   ],
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "express-async-handler": "^1.2.0",
-    "morgan": "^1.10.0",
-    "pg": "^8.13.0"
+    "morgan": "^1.10.1",
+    "pg": "^8.18.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.30.0",
-    "nodemon": "^3.1.6"
+    "@biomejs/biome": "^2.4.4",
+    "nodemon": "^3.1.14"
   }
 }
