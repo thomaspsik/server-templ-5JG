@@ -22,7 +22,7 @@ npm run dev
 npm start
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [Biome](https://biomejs.dev/)
 
 ```sh
 npm run lint
