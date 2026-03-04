@@ -1,10 +1,10 @@
+import path from 'node:path';
+import cors from 'cors';
+import dotenv from 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
-import dotenv from 'dotenv';
-import cors from 'cors';
-import path from 'node:path';
 
-import testRoute from './routes/test.js';
+import testRoute from './routes/testRoutes.js';
 
 dotenv.config();
 
